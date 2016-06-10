@@ -17,7 +17,7 @@ import java.util.Arrays;
 import static com.kiva.BootType.MTK;
 
 /**
- * @author Lody
+ * @author Lody Kiva
  *
  */
 public class BootImage implements Constant {
@@ -74,7 +74,7 @@ public class BootImage implements Constant {
         try {
             bootImageInfo = (BootImageInfo) ois.readObject();
         } catch (ClassNotFoundException e) {
-            // Will not going happen
+            // Will not going to happen
         }
         ois.close();
     }
